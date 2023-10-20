@@ -4,8 +4,8 @@ function jumbotron (props) {
     return(
         <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1>Bootstrap Tutorial</h1>      
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    <h1>Steve Butler</h1>      
+    <p>This portfolio (made using React) shows some of the projects I have created in my coding career to date</p>
   </div>
 </div>
     )

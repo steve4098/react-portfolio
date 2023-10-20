@@ -4,9 +4,10 @@ import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
-    <NavbarBts />,
-    <Jumbotron />
-
+    <>
+      <NavbarBts />,
+      <Jumbotron />
+    </>
   );
 }
 
