@@ -1,8 +1,9 @@
 import React from "react";
+import NavbarBts from "./components/NavbarBts";
 
 function App() {
   return (
-    <Navbar />
+    <NavbarBts />
 
   );
 }
