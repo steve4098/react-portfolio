@@ -15,6 +15,9 @@ function navbar(props) {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item dropdown">
