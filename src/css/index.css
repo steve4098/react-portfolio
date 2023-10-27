@@ -27,3 +27,51 @@
     /* color: var(--lightFont); */
     text-align: left;
 }
+
+
+/*Navbar formatting*/
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    /* background-image: url(../Images/nav\ background.jpg); */
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 5;
+    box-shadow: 0 5px 35px var(--boxShadow);
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    padding: 5px;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 3vw;
+    font-style: bold;
+    font-style: italic;
+    background-color: white;
+    padding: 5px 15px 5px 5px;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 75px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 0 20px 0 20px !important;
+    transition: font-size 1s 0s;
+}
+
+.nav-link:hover {
+    font-size: 2vw;
+    color: yellow;
+}
