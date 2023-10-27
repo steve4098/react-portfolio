@@ -1,0 +1,29 @@
+/*jumbotron formatting*/
+.jumboBackground {
+    background-image: url(../images/stripes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumboBackground img {
+    border-radius: 30%;
+    position: absolute;
+    top: 250px;
+    right: 10%;
+    margin: 2px solid black;
+    width: 250px;
+    height: 250px;
+    z-index: 4;
+}
+
+.jumboCopy {
+    width: 90%;
+    min-width: 400px;
+    max-width: 700px;
+    /* color: var(--lightFont); */
+    text-align: left;
+}
