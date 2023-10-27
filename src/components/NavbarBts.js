@@ -1,6 +1,6 @@
 import React from "react";
 
-function navbar(props) {
+function navbar() {
     return (
         <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -15,19 +15,12 @@ function navbar(props) {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="#">Projects</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projects
+          <a class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact Me
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Project 1</a></li>
-            <li><a class="dropdown-item" href="#">Project 2</a></li>
-          </ul>
         </li>
       </ul>
     </div>
